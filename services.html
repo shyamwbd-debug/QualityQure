@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View clinical specialities and medical treatments offered by Dr. Jayashree Sharma, including pregnancy care, infertility diagnostics, and menstrual health.">
+  <title>Clinical Services & Treatments - Quality Qure Speciality Clinic</title>
+
+  <!-- Google Fonts: Outfit (Headings) & Open Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons for modern aesthetic -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================
+       TOP CONTACT & SOCIAL BAR
+       ========================================= -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <ul class="top-bar-info">
+        <li><i class="fa-solid fa-phone"></i> <a href="tel:+918056087139">+91 80560 87139</a></li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@clinicname.com">contact@clinicname.com</a></li>
+        <li><i class="fa-solid fa-location-dot"></i> <span>Chennai, India</span></li>
+      </ul>
+      <div class="top-bar-social">
+        <span>Follow Us:</span>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+       MAIN STICKY HEADER & NAVIGATION
+       ========================================= -->
+  <header class="main-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-heart-pulse"></i></span>
+        <span class="logo-text">Quality<span>Qure</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Doctor</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        
+        <!-- Easy Mobile Call Action -->
+        <a href="https://wa.me/918056087139" target="_blank" class="nav-whatsapp-btn">
+          <i class="fa-brands fa-whatsapp"></i> Chat Booking
+        </a>
+      </nav>
+
+      <!-- CTA Appointment Button -->
+      <a href="contact.html" class="btn btn-primary header-btn">Book Appointment</a>
+
+      <!-- Hamburger Icon for Mobile Drawer -->
+      <button class="hamburger" aria-label="Toggle Navigation Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================
+         PAGE HERO BANNER
+         ========================================= -->
+    <section class="hero" style="padding: 4rem 0; text-align: center;">
+      <div class="container">
+        <div class="hero-tag" style="margin-bottom: 1rem;">
+          <i class="fa-solid fa-hand-holding-medical"></i> Medical Specialities
+        </div>
+        <h1 class="hero-title" style="font-size: 2.75rem; margin-bottom: 0;">Clinical <span>Services</span></h1>
+      </div>
+    </section>
+
+    <!-- =========================================
+         EXPANDED SERVICES LIST
+         ========================================= -->
+    <section class="services section-padding" style="background-color: var(--bg-white);">
+      <div class="container">
+        <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;">
+          <!-- Service 1: Pregnancy -->
+          <div class="service-card" id="pregnancy">
+            <div class="service-img">
+              <img src="images/pregnancy_service.png" alt="Pregnancy checkups and care">
+            </div>
+            <div class="service-content">
+              <div class="service-icon"><i class="fa-solid fa-baby-carriage"></i></div>
+              <h3 class="service-title">Pregnancy Care</h3>
+              <p class="service-desc">
+                Comprehensive prenatal and antenatal checkups. Continuous fetal monitoring, ultrasound scans, parent education, and 24/7 delivery services, focused on normal delivery.
+              </p>
+              <a href="pregnancy.html" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 2: Infertility -->
+          <div class="service-card" id="infertility">
+            <div class="service-img">
+              <img src="images/infertility_service.png" alt="Infertility consultations and diagnostics">
+            </div>
+            <div class="service-content">
+              <div class="service-icon"><i class="fa-solid fa-kit-medical"></i></div>
+              <h3 class="service-title">Infertility Treatments</h3>
+              <p class="service-desc">
+                Tailored fertility diagnostics, ovulation induction, follicle tracking, and psychological counselling for couples seeking reproductive support, with a clean and supportive environment.
+              </p>
+              <a href="pregnancy.html" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 3: Menstrual Issues -->
+          <div class="service-card" id="menstrual">
+            <div class="service-img">
+              <img src="images/menstrual_service.png" alt="Menstrual health and gynecological care">
+            </div>
+            <div class="service-content">
+              <div class="service-icon"><i class="fa-solid fa-house-medical"></i></div>
+              <h3 class="service-title">Menstrual Dysfunctions</h3>
+              <p class="service-desc">
+                Clinical assessment and personalized management for irregular cycles, PCOD/PCOS, painful periods, heavy bleeding, and hormonal therapies during pre-menopause stages.
+              </p>
+              <a href="pregnancy.html" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 4: Fibroids -->
+          <div class="service-card" id="fibroids">
+            <div class="service-img" style="background-color: #f1f5f9; display: flex; align-items: center; justify-content: center; height: 220px; font-size: 4rem; color: var(--primary);">
+              <i class="fa-solid fa-shield-virus"></i>
+            </div>
+            <div class="service-content">
+              <div class="service-icon"><i class="fa-solid fa-circle-nodes"></i></div>
+              <h3 class="service-title">Uterine Fibroids</h3>
+              <p class="service-desc">
+                Advanced diagnostics and medical management of fibroids. Affordable options for minimally invasive keyhole surgeries (laparoscopy) and patient counselling.
+              </p>
+              <a href="pregnancy.html" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 5: Cervical Cancer -->
+          <div class="service-card" id="cervical">
+            <div class="service-img" style="background-color: #f1f5f9; display: flex; align-items: center; justify-content: center; height: 220px; font-size: 4rem; color: var(--primary);">
+              <i class="fa-solid fa-virus-covid"></i>
+            </div>
+            <div class="service-content">
+              <div class="service-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+              <h3 class="service-title">Cervical Cancer Screening</h3>
+              <p class="service-desc">
+                Preventive screenings including Pap smears, HPV DNA screening tests, and vaccination advice to protect against cervical cancers in women.
+              </p>
+              <a href="pregnancy.html" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 6: Family Planning -->
+          <div class="service-card" id="family">
+            <div class="service-img" style="background-color: #f1f5f9; display: flex; align-items: center; justify-content: center; height: 220px; font-size: 4rem; color: var(--primary);">
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+            <div class="service-content">
+              <div class="service-icon"><i class="fa-solid fa-clipboard-question"></i></div>
+              <h3 class="service-title">Family Planning & Cu T</h3>
+              <p class="service-desc">
+                Patient counselling regarding temporary and permanent contraception. Low-cost copper T insertion services and hormonal contraception advice in a private environment.
+              </p>
+              <a href="pregnancy.html" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         CALL TO ACTION SECTION
+         ========================================= -->
+    <section class="section-padding" style="background-color: var(--primary-light); text-align: center;">
+      <div class="container" style="max-width: 600px;">
+        <h2 style="font-size: 2rem; margin-bottom: 1rem; color: var(--primary-dark);">Make An Appointment Today</h2>
+        <p style="color: var(--text-muted); margin-bottom: 2rem;">
+          Get tailored consultation, minimal wait times, and compassionate medical care from our specialist doctor.
+        </p>
+        <a href="contact.html" class="btn btn-accent"><i class="fa-solid fa-calendar-days"></i> Request Timing Slot</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================
+       FOOTER SECTION
+       ========================================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <!-- Widget 1: Brand Info -->
+      <div class="footer-widget-about">
+        <h3>Quality Qure</h3>
+        <p>
+          Dedicated medical center specializing in gynaecology, obstetrics, and infertility. Offering personal patient connection, minimal waiting times, and normal deliveries under professional care.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Widget 2: Navigation Links -->
+      <div class="footer-widget-links">
+        <h4>Quick Links</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Doctor</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Our Services</a></li>
+          <li><a href="testimonials.html"><i class="fa-solid fa-chevron-right"></i> Testimonials</a></li>
+          <li><a href="gallery.html"><i class="fa-solid fa-chevron-right"></i> Facility Gallery</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Book Appointment</a></li>
+        </ul>
+      </div>
+
+      <!-- Widget 3: Contact Details -->
+      <div class="footer-widget-contact">
+        <h4>Get In Touch</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>48/24, Chakrapani Street, West Mambalam, Near 5 Lights Junction, Chennai - 600033</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 80560 87139 <br> +91 44 2489 xxxx</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <span>doctorjsharma@gmail.com<br>info@drjayashreequalityqure.com</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Copyright Bar -->
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Quality Qure. All rights reserved. Created with medical website standards.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Link Custom Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional Doctor & Clinic Website Template. Reusable, fast, responsive and optimized for medical practitioners.">
+  <title>Care & Qure - Professional Doctor Speciality Clinic</title>
+
+  <!-- Google Fonts: Outfit (Headings) & Open Sans (Body), with Poppins & Inter for Hero -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons for modern aesthetic -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================
+       TOP CONTACT & SOCIAL BAR
+       ========================================= -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <ul class="top-bar-info">
+        <!-- CUSTOMIZATION: Modify clinic contact details below -->
+        <li><i class="fa-solid fa-phone"></i> <a href="tel:+918056087139">+91 80560 87139</a></li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@clinicname.com">contact@clinicname.com</a></li>
+        <li><i class="fa-solid fa-location-dot"></i> <span>Chennai, India</span></li>
+      </ul>
+      <div class="top-bar-social">
+        <span>Follow Us:</span>
+        <div class="social-links">
+          <!-- CUSTOMIZATION: Insert social channel links below -->
+          <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================
+       MAIN STICKY HEADER & NAVIGATION
+       ========================================= -->
+  <header class="main-header">
+    <div class="container header-container">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-heart-pulse"></i></span>
+        <!-- CUSTOMIZATION: Clinic / Doctor Brand Name -->
+        <span class="logo-text">Quality<span>Qure</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About Doctor</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="testimonials.html" class="nav-link">Testimonials</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        
+        <!-- Easy Mobile Call Action -->
+        <a href="https://wa.me/918056087139" target="_blank" class="nav-whatsapp-btn">
+          <i class="fa-brands fa-whatsapp"></i> Chat Booking
+        </a>
+      </nav>
+
+      <!-- CTA Appointment Button -->
+      <a href="contact.html" class="btn btn-primary header-btn">Book Appointment</a>
+
+      <!-- Hamburger Icon for Mobile Drawer -->
+      <button class="hamburger" aria-label="Toggle Navigation Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================
+         HERO BANNER SECTION
+         ========================================= -->
+    <section id="home" class="hero">
+      <!-- Premium ambient background glows -->
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+      
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <i class="fa-solid fa-user-doctor"></i> Trusted Gynaecological & Fertility Care
+          </div>
+          <!-- CUSTOMIZATION: Main Headline and Specializations -->
+          <h1 class="hero-title" id="hero-typewriter-title">Expert Care for <span>Women's Health</span> Needs</h1>
+          <p class="hero-text">
+            Led by experienced specialists providing compassionate, comprehensive medical and fertility treatments to ensure your health and well-being at every stage of life.
+          </p>
+          <div class="hero-btns">
+            <a href="contact.html" class="btn btn-accent"><i class="fa-solid fa-calendar-check"></i> Book Consultation</a>
+            <a href="about.html" class="btn btn-secondary">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <div class="hero-image-wrapper">
+          <!-- Glowing decorative portrait rings -->
+          <div class="hero-circle-deco-1"></div>
+          <div class="hero-circle-deco-2"></div>
+
+          <!-- Main Hero Portrait -->
+          <div class="hero-img-container">
+            <!-- CUSTOMIZATION: Replace image with doctor's profile picture -->
+            <img src="images/hero_doctor.png" alt="Dr. Jayashree Sharma - Specialist Doctor">
+          </div>
+          
+          <!-- Floating badge 1: Experience -->
+          <div class="floating-badge badge-1">
+            <div class="icon"><i class="fa-solid fa-award"></i></div>
+            <div class="badge-info">
+              <h4>27+ Years</h4>
+              <p>Clinical Excellence</p>
+            </div>
+          </div>
+          
+          <!-- Floating badge 2: Patient Satisfaction -->
+          <div class="floating-badge badge-2">
+            <div class="icon"><i class="fa-solid fa-face-smile"></i></div>
+            <div class="badge-info">
+              <h4>99%+</h4>
+              <p>Happy Patients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         QUICK INFO CARDS OVERLAY
+         ========================================= -->
+    <section class="quick-info">
+      <div class="container quick-info-grid">
+        <!-- Card 1: Timings -->
+        <div class="info-card card-primary card-timings">
+          <div class="info-card-icon"><i class="fa-solid fa-clock"></i></div>
+          <div class="info-card-content">
+            <div class="card-meta-row">
+              <h3>Clinic Timings</h3>
+              <div class="status-indicator status-open">
+                <span class="status-dot"></span> Open Today
+              </div>
+            </div>
+            <ul class="schedule-list">
+              <li><strong>Mon - Sat (Mambalam)</strong> <span class="time-accent">10am - 2pm</span></li>
+              <div class="schedule-divider"></div>
+              <li><strong>Mon - Sat (Mambalam)</strong> <span class="time-accent">6pm - 8pm</span></li>
+              <div class="schedule-divider"></div>
+              <li><strong>Mon - Sat (Kodambakkam)</strong> <span class="time-accent">8pm - 9pm</span></li>
+              <div class="schedule-divider"></div>
+              <li class="sunday-row"><strong>Sunday</strong> <span class="time-closed">Closed</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 2: Contact Info (Focal Point) -->
+        <div class="info-card card-accent card-emergency">
+          <div class="info-card-icon"><i class="fa-solid fa-phone-volume"></i></div>
+          <div class="info-card-content">
+            <div class="card-meta-row">
+              <h3>Emergency Booking</h3>
+              <div class="status-indicator status-support">
+                <i class="fa-solid fa-bolt"></i> 24/7 Support
+              </div>
+            </div>
+            <p class="emergency-desc">Direct WhatsApp scheduling or immediate clinic help line numbers.</p>
+            <div class="emergency-action-divider"></div>
+            <a href="tel:+918056087139" class="emergency-phone-btn">
+              <i class="fa-solid fa-mobile-screen-button"></i> +91 80560 87139
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: Mail/Location -->
+        <div class="info-card card-dark card-location">
+          <div class="info-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="info-card-content">
+            <div class="card-meta-row">
+              <h3>Our Clinic Location</h3>
+              <div class="status-indicator status-easy">
+                <i class="fa-solid fa-location-crosshairs"></i> Easy to Locate
+              </div>
+            </div>
+            <p class="clinic-name">Quality Qure Clinic</p>
+            <div class="location-divider"></div>
+            <p class="clinic-address">48/24, Chakrapani Street, West Mambalam, Near 5 Lights Junction, Chennai - 600033</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         ABOUT THE DOCTOR SECTION
+         ========================================= -->
+    <section id="about" class="about section-padding">
+      <div class="container about-grid">
+        <div class="about-images">
+          <div class="about-img-main">
+            <!-- CUSTOMIZATION: Doctor in clinical action / consultation picture -->
+            <img src="images/about_doctor.png" alt="Doctor consulting patient in clinic">
+          </div>
+          <!-- Years of experience floating card -->
+          <div class="about-experience-badge">
+            <h3>27+</h3>
+            <p>Years of Practice</p>
+          </div>
+          <div class="about-decoration"></div>
+        </div>
+
+        <div class="about-content">
+          <span class="about-subtitle">Meet Your Doctor</span>
+          <!-- CUSTOMIZATION: Doctor name, qualifications & introduction -->
+          <h2 class="about-title">Dr. Jayashree Sharma</h2>
+          <h3 style="color: var(--primary); font-size: 1.25rem; font-weight: 600; margin-bottom: 1.5rem;">
+            MBBS, DGO, MRCOG (UK) <br>
+            <span style="color: var(--text-muted); font-size: 1.125rem; font-weight: 500;">Gynecologist, Obstetrician & Infertility Specialist</span>
+          </h3>
+          <p class="about-text">
+            Dr. Jayashree Sharma has over 27 years of clinical experience in Obstetrics, Gynecology, and reproductive medicine. She practices at Quality Qure Ladies Speciality Clinic in West Mambalam and Saroja Hospital, Chennai.
+          </p>
+          <p class="about-text">
+            She completed her MBBS from Tanjore Medical College in 1997, followed by her DGO from Trinity College, Dublin, Ireland in 2005, and earned the prestigious MRCOG from the Royal College of Obstetricians and Gynaecologists, London in 2010. She specializes in handling normal deliveries, fertility counselling, and laparoscopic interventions.
+          </p>
+          
+          <div class="about-features">
+            <div class="about-feature-item"><i class="fa-solid fa-circle-check"></i> Normal Vaginal Delivery Focus</div>
+            <div class="about-feature-item"><i class="fa-solid fa-circle-check"></i> Custom Infertility Solutions</div>
+            <div class="about-feature-item"><i class="fa-solid fa-circle-check"></i> Minimal Waiting Time</div>
+            <div class="about-feature-item"><i class="fa-solid fa-circle-check"></i> 24-Hour Support Delivery Services</div>
+          </div>
+          
+          <a href="contact.html" class="btn btn-primary">Book Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         SERVICES / TREATMENTS GRID
+         ========================================= -->
+    <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-subtitle">Our Specialities</span>
+          <h2 class="section-title">Comprehensive <span>Healthcare Services</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1: Pregnancy -->
+          <div class="service-card">
+            <div class="service-img">
+              <img src="images/pregnancy_service.png" alt="Pregnancy checkups and care">
+            </div>
+            <div class="service-content">
+              <div class="service-icon"><i class="fa-solid fa-baby-carriage"></i></div>
+              <h3 class="service-title">Pregnancy Care</h3>
+              <p class="service-desc">
+                Comprehensive prenatal and antenatal checkups. Continuous fetal monitoring, ultrasound scans, parent education, and 24/7 delivery services, focused on normal delivery.
+              </p>
+              <a href="pregnancy.html" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service Card 2: Infertility -->
+          <div class="service-card">
+            <div class="service-img">
+              <img src="images/infertility_service.png" alt="Infertility consultations and diagnostics">
+            </div>
+            <div class="service-content">
+              <div class="service-icon"><i class="fa-solid fa-kit-medical"></i></div>
+              <h3 class="service-title">Infertility Treatments</h3>
+              <p class="service-desc">
+                Tailored fertility diagnostics, ovulation induction, follicle tracking, and psychological counselling for couples seeking reproductive support, with a clean and supportive environment.
+              </p>
+              <a href="pregnancy.html" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service Card 3: Menstrual Issues -->
+          <div class="service-card">
+            <div class="service-img">
+              <img src="images/menstrual_service.png" alt="Menstrual health and gynecological care">
+            </div>
+            <div class="service-content">
+              <div class="service-icon"><i class="fa-solid fa-house-medical"></i></div>
+              <h3 class="service-title">Menstrual Dysfunctions</h3>
+              <p class="service-desc">
+                Clinical assessment and personalized management for irregular cycles, PCOD/PCOS, painful periods, heavy bleeding, and hormonal therapies during pre-menopause stages.
+              </p>
+              <a href="pregnancy.html" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="services-footer">
+          <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Looking for other specialities like Fibroids management, Copper T, or Cervical Cancer screening?</p>
+          <a href="contact.html" class="btn btn-secondary">Inquire About Other Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         STATISTICS & COUNTERS SECTION
+         ========================================= -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <!-- Stat Item 1 -->
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+          <div class="stat-number" data-target="27" data-suffix="+">0+</div>
+          <div class="stat-title">Years Experience</div>
+        </div>
+        
+        <!-- Stat Item 2 -->
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+          <div class="stat-number" data-target="10000" data-suffix="+">0+</div>
+          <div class="stat-title">Happy Patients</div>
+        </div>
+        
+        <!-- Stat Item 3 -->
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fa-solid fa-baby"></i></div>
+          <div class="stat-number" data-target="500" data-suffix="+">0+</div>
+          <div class="stat-title">Normal Deliveries</div>
+        </div>
+        
+        <!-- Stat Item 4 -->
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fa-solid fa-hospital-user"></i></div>
+          <div class="stat-number" data-target="12000" data-suffix="+">0+</div>
+          <div class="stat-title">Total Consultations</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         PATIENT REVIEWS / TESTIMONIALS
+         ========================================= -->
+    <section id="testimonials" class="testimonials section-padding">
+      <div class="container testimonials-grid">
+        <!-- Left Column: Dynamic Google Review Summary Widget -->
+        <div class="testimonials-intro">
+          <span class="section-subtitle">Patient Feedback</span>
+          <h2>Verified Patient Ratings</h2>
+          <p>
+            We are committed to providing compassionate care. Read certified reviews from our patients, showing our dedication to excellence in women's healthcare.
+          </p>
+          
+          <!-- Google Style Rating Summary Card -->
+          <div class="rating-summary-card">
+            <div class="rating-summary-header">
+              <div class="rating-score-block">
+                <span class="rating-big-score" id="summaryAvgScore">4.9</span>
+                <div class="rating-stars-wrapper" id="summaryHeaderStars">
+                  <!-- Generated dynamically in JS -->
+                </div>
+                <span class="rating-total-count" id="summaryTotalCount">500+ Reviews</span>
+              </div>
+              <div class="rating-source-badge">
+                <i class="fa-brands fa-google google-color-icon"></i>
+                <span class="source-text">Google Reviews</span>
+              </div>
+            </div>
+            
+            <!-- Histogram rating distribution -->
+            <div class="rating-histogram" id="ratingHistogram">
+              <!-- Generated dynamically in JS -->
+            </div>
+            
+            <div class="trust-badge-row">
+              <i class="fa-solid fa-circle-check trust-icon"></i>
+              <span>100% Verified Google Reviews</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Testimonial Slider Container -->
+        <div class="testimonial-slider-container">
+          <!-- Navigation Arrows -->
+          <button class="slider-arrow prev-arrow" id="prevReviewBtn" aria-label="Previous Review">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="slider-arrow next-arrow" id="nextReviewBtn" aria-label="Next Review">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          
+          <div class="testimonial-slider-viewport">
+            <div class="testimonial-track" id="testimonialTrack">
+              <!-- Generated dynamically in JS -->
+            </div>
+          </div>
+
+          <!-- Dynamic Dot Navigation Controls -->
+          <div class="slider-controls" id="sliderControls"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         CLINIC GALLERY SECTION
+         ========================================= -->
+    <section id="gallery" class="gallery section-padding">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-subtitle">Inside Our Clinic</span>
+          <h2 class="section-title">Our Facility <span>& Equipment</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Gallery Item 1 -->
+          <div class="gallery-item">
+            <img src="images/clinic_gallery_1.png" alt="Quality Qure Clinic Front Lobby">
+            <div class="gallery-overlay">
+              <i class="fa-solid fa-hospital"></i>
+              <h4>Welcome Lobby</h4>
+            </div>
+          </div>
+
+          <!-- Gallery Item 2 -->
+          <div class="gallery-item">
+            <img src="images/clinic_gallery_2.png" alt="Doctor Consultation Room">
+            <div class="gallery-overlay">
+              <i class="fa-solid fa-briefcase-medical"></i>
+              <h4>Consultation Room</h4>
+            </div>
+          </div>
+
+          <!-- Gallery Item 3 -->
+          <div class="gallery-item">
+            <img src="images/clinic_gallery_3.png" alt="Ultrasound Scan Facility">
+            <div class="gallery-overlay">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <h4>Diagnostic Lab</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         APPOINTMENT BOOKING SECTION
+         ========================================= -->
+    <section id="booking" class="booking-section section-padding">
+      <div class="container">
+        <div class="booking-grid">
+          <!-- Left Info Pane -->
+          <div class="booking-info-pane">
+            <div>
+              <h2>Schedule An Appointment</h2>
+              <p>
+                Fill out the booking form to request an appointment. Our team will verify clinical availability and contact you via call/email to lock in your timing slot.
+              </p>
+            </div>
+            
+            <div class="booking-details-list">
+              <!-- Detail 1 -->
+              <div class="booking-detail-item">
+                <div class="icon"><i class="fa-solid fa-headset"></i></div>
+                <div class="booking-detail-content">
+                  <h4>Immediate Helpline</h4>
+                  <p>+91 80560 87139</p>
+                </div>
+              </div>
+              
+              <!-- Detail 2 -->
+              <div class="booking-detail-item">
+                <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="booking-detail-content">
+                  <h4>Private & Secure</h4>
+                  <p>Your health data is fully protected.</p>
+                </div>
+              </div>
+              
+              <!-- Detail 3 -->
+              <div class="booking-detail-item">
+                <div class="icon"><i class="fa-solid fa-wallet"></i></div>
+                <div class="booking-detail-content">
+                  <h4>Reasonable Fee System</h4>
+                  <p>Infertility and pregnancy treatments at affordable costs.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div style="font-size: 0.8rem; opacity: 0.8;">
+              <p>For emergencies outside clinic hours, please go to the nearest major casualty or contact Dr. Jayashree sharma directly if registered.</p>
+            </div>
+          </div>
+
+          <!-- Right Form Pane -->
+          <div class="booking-form-pane">
+            <h3>Book Appointment</h3>
+            <form id="appointmentForm" novalidate>
+              <div class="form-group">
+                <label for="bookingName" class="form-label">Full Name *</label>
+                <input type="text" id="bookingName" class="form-control" placeholder="Enter your full name" required>
+              </div>
+
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="bookingPhone" class="form-label">Phone Number *</label>
+                  <input type="tel" id="bookingPhone" class="form-control" placeholder="Mobile number" required>
+                </div>
+                <div class="form-group">
+                  <label for="bookingEmail" class="form-label">Email Address *</label>
+                  <input type="email" id="bookingEmail" class="form-control" placeholder="Your email address" required>
+                </div>
+              </div>
+
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="bookingDate" class="form-label">Preferred Date *</label>
+                  <input type="date" id="bookingDate" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="bookingDept" class="form-label">Department / Speciality</label>
+                  <select id="bookingDept" class="form-control">
+                    <option value="General Consultation">General Consultation</option>
+                    <option value="Pregnancy / Antenatal Care">Pregnancy / Antenatal Care</option>
+                    <option value="Infertility Counseling">Infertility Counseling</option>
+                    <option value="Menstrual Dysfunctions">Menstrual Dysfunctions</option>
+                    <option value="Other Treatments">Other Speciality</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingMessage" class="form-label">Message / Clinical Concerns</label>
+                <textarea id="bookingMessage" class="form-control" placeholder="Briefly describe your symptoms or reason for visit..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; border-radius: var(--radius-sm); margin-top: 10px;">
+                Submit Booking Request
+              </button>
+              
+              <!-- Success/Error alert box -->
+              <div id="formAlert" class="form-alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================
+       FOOTER SECTION
+       ========================================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <!-- Widget 1: Brand Info -->
+      <div class="footer-widget-about">
+        <h3>Quality Qure</h3>
+        <p>
+          Dedicated medical center specializing in gynaecology, obstetrics, and infertility. Offering personal patient connection, minimal waiting times, and normal deliveries under professional care.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Widget 2: Navigation Links -->
+      <div class="footer-widget-links">
+        <h4>Quick Links</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Doctor</a></li>
+          <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Our Services</a></li>
+          <li><a href="testimonials.html"><i class="fa-solid fa-chevron-right"></i> Testimonials</a></li>
+          <li><a href="gallery.html"><i class="fa-solid fa-chevron-right"></i> Facility Gallery</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Book Appointment</a></li>
+        </ul>
+      </div>
+
+      <!-- Widget 3: Contact Details -->
+      <div class="footer-widget-contact">
+        <h4>Get In Touch</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>48/24, Chakrapani Street, West Mambalam, Near 5 Lights Junction, Chennai - 600033</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 80560 87139 <br> +91 44 2489 xxxx</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <span>doctorjsharma@gmail.com<br>info@drjayashreequalityqure.com</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Copyright Bar -->
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Quality Qure. All rights reserved. Created with medical website standards.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Desktop Fixed Social Bar (Floats/Comes down while scrolling) -->
+  <div class="desktop-social-bar">
+    <div class="vertical-line"></div>
+    <a href="#" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#" class="social-circle" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#" class="social-circle" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+  </div>
+
+  <!-- Link Custom Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
